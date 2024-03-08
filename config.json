@@ -1,0 +1,250 @@
+{
+    "name": "Final Project - Get the Flag!",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [],
+
+    "agents": [  
+        {
+            "definition": "defs/guy.json",
+            "style": { "fill": "lightblue", "stroke": "black" },
+            "position": {
+                "x": -40, 
+                "y": 135, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": -130, 
+                "y": 68, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": 130, 
+                "y": 68, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": -200, 
+                "y": -57, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": 10, 
+                "y": -112, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": 210, 
+                "y": -112, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": 15, 
+                "y": 178, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bumper.json",
+            "style": { "fill": "brown", "stroke": "none" },
+            "position": {
+                "x": 280, 
+                "y": 178, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/door.json",
+            "style": { "fill": "blue", "stroke": "none" },
+            "position": {
+                "x": 260, 
+                "y": 8, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/door.json",
+            "style": { "fill": "blue", "stroke": "none" },
+            "position": {
+                "x": -330, 
+                "y": -117, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/flag.json",
+            "style": { "fill": "red", "stroke": "none" },
+            "position": {
+                "x": 60, 
+                "y": 120, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": 80, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+                "x": 100, 
+                "y": -115, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 150, 
+                "y": 175, 
+                "theta": 0
+            }
+        }
+        
+    ],
+
+    "statics": [
+        {
+            "//": "Left boundry",
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "//": "Right boundry",
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "//": "Bottom boundry",
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 145 },
+                { "x": -250, "y": 145 },
+                { "x": -250, "y": 135 },
+                { "x": -350, "y": 135 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -5, "y": 190 },
+                { "x": 5, "y": 190 },
+                { "x": 5, "y": 90 },
+                { "x": -5, "y": 90 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -190, "y": 90 },
+                { "x": 190, "y": 90 },
+                { "x": 190, "y": 80 },
+                { "x": -190, "y": 80 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 280, "y": 35 },
+                { "x": 0, "y": 35 },
+                { "x": 0, "y": 25 },
+                { "x": 280, "y": 25 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -100 },
+                { "x": -250,  "y": -100 },
+                { "x": -250,  "y": -90 },
+                { "x": -350, "y": -90 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -280, "y": -45 },
+                { "x": -125,  "y": -45 },
+                { "x": -125,  "y": -35 },
+                { "x": -280, "y": -35 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -60, "y": -30 },
+                { "x": -50,  "y": -30 },
+                { "x": -50,  "y": -90 },
+                { "x": -60, "y": -90 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 270, "y": -30 },
+                { "x": 280,  "y": -30 },
+                { "x": 280,  "y": -90 },
+                { "x": 270, "y": -90 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -60, "y": -100 },
+                { "x": 280,  "y": -100 },
+                { "x": 280,  "y": -90 },
+                { "x": -60, "y": -90 }
+            ]
+        } 
+    ]
+}
