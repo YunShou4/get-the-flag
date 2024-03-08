@@ -1,0 +1,18 @@
+{
+    "name": "Bumper",
+    "type": "static",
+    "description": "Limit the Ghost's movement range",
+    "shape": [
+        { "x": 0, "y": -10 },
+        { "x": 5, "y": 10 },
+        { "x": -5, "y": 10 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/bumper.so"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Door",
+    "type": "static",
+    "description": "Server as a teleporter",
+    "shape": [
+        { "x": -1, "y": 15 },
+        { "x": 1, "y": 15 },
+        { "x": 1, "y": -15 },
+        { "x": 6, "y": -15 },
+        { "x": 6, "y": -17 },
+        { "x": -6, "y": -17 },
+        { "x": -6, "y": -15 },
+        { "x": -1, "y": -15 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/door.so"
+}
